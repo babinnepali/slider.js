@@ -1,6 +1,7 @@
-/*;
-
-*/
+// Car.js code
+window.alert(car1.motor.horsePower);
+car1.start();
+window.alert(car1.motor.horsePower);
 
 
 // find elements
