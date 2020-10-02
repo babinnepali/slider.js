@@ -1,6 +1,22 @@
+body{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+.slider button{
+    border-radius: 10px;
+    background-color:rgb(106, 71, 142);
+    color:whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .slider{
+    display :flex;
+    align-items: center;
+    justify-content: space-around;
     width: 50%;
-    margin: 0 auto;
+    margin: 10% auto;
     text-align: center;
 }
 .slider .slider-img{
